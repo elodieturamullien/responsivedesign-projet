@@ -69,6 +69,7 @@ body{
     line-height: 15px;
     font-style: normal;
     font-weight: 600;
+    font-weight: bold;
 }
 
 .block{
@@ -109,7 +110,8 @@ body{
     font-weight: 600;
     line-height: 15px;
     letter-spacing: 0.4px;
-    text-align: center; 
+    text-align: center;
+    font-weight: bold;
 }
 
 .item-info-text{
@@ -142,7 +144,7 @@ body{
 }
 
 .item-info-detail-text{
-    color: #72664F;
+    color: #5D534F;
     font-family: "Libre Baskerville";
     font-size: 16px;
     font-style: normal;
@@ -176,6 +178,11 @@ body{
     top: 62%;
 }
 
+.alcohol-post{
+    display: flex;
+    justify-content: center;
+}
+
 .item-more{
     display: flex;
     justify-content: center;
@@ -190,5 +197,119 @@ body{
     font-weight: 600;
     line-height: 15px;
     letter-spacing: 0.4px;
+    font-weight: bold;
+}
+
+.line-separation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.little-line{
+    border: 1px solid #E5DBD1;
+    width: 42%;
+    margin: 0px 1% 0px 1%;
+}
+
+.title-separation{
+    color: #003B5C;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin: 0px 0px;
+    border: 1px solid #E5DBD1;
+    box-shadow: 2px 2px #E5DBD1;
+    font-weight: 500;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.text-title{
+    display: flex;
     text-align: center;
+    justify-content: center;
+}
+
+.between-text{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.text-info{
+    color: #5D534F;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12.03px;
+    margin-left: 40px;
+    margin-top: 20px;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+}
+
+.separation-item-more{
+    margin-left: 500px;    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block-articles{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    max-height: 100%;
+    gap: 10px;
+}
+
+.watches{
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles-info{
+    display: flex;
+    text-align: center;
+}
+
+.articles-title{
+    color: #003B5C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.articles-text{
+    color: #9E9896;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.articles-details{
+    color: #003B5C;
+    font-family: "Libre Baskerville";
+    width: 406px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+    margin: 0%;
+}
+
+.cheat{
+    color: white;
+    font-size: 22px;
 }
