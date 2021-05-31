@@ -1,0 +1,72 @@
+body{
+    font-family: 'HK grotesk';
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    margin-left: 150px;
+}
+
+.timeline-date{
+    margin: 0%;
+    color: #003B5C;
+    font-size: 12px;
+    font-family: 'HK Grotesk';
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: left;
+}
+
+.timeline-city{
+    margin: 0%;
+    color: #9E9896;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: left;
+}
+
+.nav-info-button{
+    text-decoration: none;
+    color: #003B5C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    margin-right: 38px;
+}
+
+.line{
+    border: 1px solid #F6F3EE;
+    margin: 22px 0px 15px 0px;
+}
+
+.menu-info{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.menu-choice{
+    text-decoration: none;
+    color: #003B5C;
+    font-size: 12px;
+    line-height: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
