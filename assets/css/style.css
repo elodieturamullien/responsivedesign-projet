@@ -24,7 +24,7 @@ body{
     font-family: 'HK Grotesk';
     font-weight: 600;
     line-height: 15px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.342857px;
     text-align: left;
 }
 
@@ -34,7 +34,7 @@ body{
     font-size: 12px;
     font-weight: 600;
     line-height: 15px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.342857px;
     text-align: left;
 }
 
@@ -45,7 +45,7 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: 15px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.342857px;
     text-align: left;
     margin-right: 38px;
 }
@@ -265,7 +265,7 @@ body{
     gap: 10px;
 }
 
-.watches{
+.articles{
     display: flex;
     justify-content: space-between;
 }
@@ -294,7 +294,6 @@ body{
     line-height: 15px;
     letter-spacing: 0.4px;
     text-align: center; 
-    text-transform: uppercase;
 }
 
 .articles-details{
@@ -312,4 +311,65 @@ body{
 .cheat{
     color: white;
     font-size: 22px;
+}
+
+.newsletter{
+    color: white;
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 54px;
+    height: 665px;
+    text-align: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.newsletter-block{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.newsletter h1:first-of-type{
+    font-size: 52px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.newsletter h1:last-of-type{
+    font-size: 52px;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.newsletter-info{
+    font-size: 22px;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+}
+
+.button{
+    text-transform: uppercase;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight:600;
+    font-size: 15.031px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.499742px;
+    color: #003B5C;
+    background-color: white;
+    border: 1px solid #E5DBD1;
+    padding: 15px 56px;
+    box-shadow: 5px 5px #E74832
 }
