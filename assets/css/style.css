@@ -358,7 +358,7 @@ body{
     letter-spacing: -0.4px;
 }
 
-.button{
+.button-newsletter{
     text-transform: uppercase;
     font-family: "HK Grotesk";
     font-style: normal;
@@ -372,4 +372,100 @@ body{
     border: 1px solid #E5DBD1;
     padding: 15px 56px;
     box-shadow: 5px 5px #E74832
+}
+
+footer{
+    width: 100%;
+    background: rgba(231, 72, 50, 1);
+    height: 390px;
+    color: white;
+}
+
+.footer-block{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    padding-bottom: 45px;
+}
+
+.footer-info{
+    display: grid;
+}
+
+.title-footer{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.55px;
+}
+
+.text-footer{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-footer{
+    color: white;
+    background: #E74832;
+    Width: 179px;
+    display: flex;
+    text-decoration: none;
+    transition: 0.5s;
+    box-shadow: 4px 4px 0 white;
+    border: 1px solid white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    justify-content: center;
+}
+
+.fb-icon{
+    width: 12px;
+    height: 22px;
+}
+
+.twt-icon{
+    width: 23px;
+    height: 17px;
+}
+
+.insta-icon{
+    width: 17.3px;
+    height: 17.3px;
+}
+
+.hr{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.mentions{
+    color: white;
+    float: left;
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.sb{
+    color: white;
+    float: right;
+    margin-right: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
 }
