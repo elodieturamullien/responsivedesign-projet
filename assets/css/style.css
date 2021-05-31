@@ -469,3 +469,53 @@ footer{
     letter-spacing: 0.4px;
     text-transform: uppercase;
 }
+
+/*
+@media screen and (min-width:780px) and (max-width: 979px){
+
+
+    .nav-logo img
+    {
+        width: 100px;
+    }
+
+    .menu
+    {
+        display: flex;
+        text-align: center;
+    }
+
+
+    .block-item img 
+    {
+        display: block;
+        flex-flow: row wrap;
+    }
+
+    .car-info
+    {
+        display: block;
+        width: 100%;
+        margin: 0px 50px 0px 50px;
+        top: 40%;
+    }
+
+    .car-post
+    {
+        display: block;
+        justify-content: center;
+    }
+
+    .item-info-detail
+    {
+        font-size: 15px;
+    }
+
+    .item-info-detail-text
+    {
+        font-size: 12px;
+    }
+
+
+}
+*/
