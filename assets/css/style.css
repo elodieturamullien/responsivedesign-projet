@@ -70,3 +70,125 @@ body{
     font-style: normal;
     font-weight: 600;
 }
+
+.block{
+    margin-bottom: 230px;
+}
+
+.block-item{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 30px;
+}
+
+.item-one{
+    display: flex;
+}
+
+.car-info{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    flex-direction: column;
+    width: 520px;
+    margin: 0px 117px 0px 117px;
+    top: 90%;
+}
+
+.car-post{
+    display: flex;
+    justify-content: center;
+}
+
+.item-info-title{
+    color: #003B5C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center; 
+}
+
+.item-info-text{
+    color: #9E9896;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center; 
+}
+
+.item-info-detail{
+    color: #003B5C;
+    font-family: "Libre Baskerville";
+    width: 90%;
+    margin: 0px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.4px;
+    text-align: center; 
+}
+
+.item-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-info-detail-text{
+    color: #72664F;
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    text-align: center; 
+}
+
+.item-two{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alcohol-item{
+    height: 335px;
+}
+
+.alcohol-item img{
+    max-height: 100%;
+}
+
+.alcohol-info{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: absolute;
+    flex-direction: column;
+    width: 480px;
+    margin: 0px 10px 0px 20px;
+    top: 62%;
+}
+
+.item-more{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-more-info{
+    color: #E74832;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
